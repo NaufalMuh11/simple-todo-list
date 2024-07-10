@@ -35,10 +35,10 @@ function CreateToDoItems(){
         if(!todo){
             todo=[];
         }
-        let itemList = {item: todoValue.value, status:false};
+        let itemList = { item: todoValue.value, status: false };
         todo.push(itemList);
         setLocalStorage();
-    }
+      }
     todoValue.value="";
     setAlertMessage("To do item Created Succesfully!");
 }
