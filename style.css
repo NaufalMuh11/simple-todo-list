@@ -49,6 +49,7 @@ body{
 }
 
 .todo-body img{
+    cursor: pointer;
     height: 55px;
     width: 55px;
     border-radius: 40px;
